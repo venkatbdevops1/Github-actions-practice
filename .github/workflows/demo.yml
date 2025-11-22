@@ -1,7 +1,7 @@
-name: hello-world
+name: hello-world-workflow
 on: push
 jobs:
-  my-job:
+  my-echo-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
