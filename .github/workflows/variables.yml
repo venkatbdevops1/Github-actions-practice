@@ -1,7 +1,6 @@
 name: hello-world-workflow
 on: 
   workflow_dispatch:
-  push:
   env:
     MY_NAME: "Venkat"
 jobs:
