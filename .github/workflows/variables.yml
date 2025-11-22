@@ -1,0 +1,20 @@
+name: hello-world-workflow
+on: 
+  workflow_dispatch:
+  push:
+  env:
+    MY_NAME: "Venkat"
+jobs:
+  my-echo-job:
+    runs-on: ubuntu-latest
+    env:
+      MY_JOB: "DevOps"
+    steps:
+      - name: my-step
+        run: echo "${MY_NAME} loves ${MY_JOB} with ${MY_STEP1}"
+        env:
+          MY_STEP1: "GitHub"
+      - name: my-step2
+        run: echo "echo "${MY_NAME} loves ${MY_JOB} with ${MY_STEP1}""
+        env:
+          MY_STEP2: "Docker"
