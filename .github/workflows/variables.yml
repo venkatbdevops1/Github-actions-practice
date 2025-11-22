@@ -11,10 +11,10 @@ jobs:
       MY_JOB: "DevOps"
     steps:
       - name: my-step
-        run: echo "${MY_NAME} loves ${MY_JOB} with ${MY_STEP1}"
+        run: echo "$MY_NAME loves $MY_JOB with $MY_STEP1"
         env:
           MY_STEP1: "GitHub"
       - name: my-step2
-        run: echo "echo "${MY_NAME} loves ${MY_JOB} with ${MY_STEP1}""
+        run: echo "echo "$MY_NAME loves $MY_JOB with $MY_STEP2""
         env:
           MY_STEP2: "Docker"
