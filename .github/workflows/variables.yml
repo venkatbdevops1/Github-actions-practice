@@ -1,8 +1,9 @@
 name: hello-world-workflow
 on: 
   workflow_dispatch:
-  env:
-    MY_NAME: "Venkat"
+  
+env:
+  MY_NAME: "Venkat"
 jobs:
   my-echo-job:
     runs-on: ubuntu-latest
