@@ -1,6 +1,5 @@
 name: hello-world-workflow
 on: 
-  workflow_dispatch:
   push:
 jobs:
   my-echo-job:
