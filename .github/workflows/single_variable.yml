@@ -5,7 +5,7 @@ on:
 env:
   var1 : testing1
 jobs:
-  my-echo-job:
+  test-single-variable:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
