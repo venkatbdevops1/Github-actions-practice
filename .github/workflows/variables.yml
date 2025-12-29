@@ -1,11 +1,12 @@
-name: hello-world-workflow
+name: testing_single_variable_workflow
 on: 
+  push:
   workflow_dispatch:
   
 env:
   MY_NAME: "Venkat"
 jobs:
-  my-echo-job:
+  Test_Variables:
     runs-on: ubuntu-latest
     env:
       MY_JOB: "DevOps"
