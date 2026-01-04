@@ -1,6 +1,5 @@
 name: testing_single_variable_workflow
 on: 
-  push:
   workflow_dispatch:
   
 env:
