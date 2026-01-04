@@ -1,6 +1,5 @@
 name: configuration_repo_variable_workflow
 on: 
-  push:
   workflow_dispatch:
   
 env:
